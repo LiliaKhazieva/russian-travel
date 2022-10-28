@@ -1,0 +1,13 @@
+.place__link {
+  color: inherit;
+  padding-top: 12px;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.place__link:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
