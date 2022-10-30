@@ -11,15 +11,3 @@
     max-width: 928px;
   }
 }
-
-@media screen and (max-width: 984px){
-  .lead {
-    padding: 0;
-  }
-}
-
-@media screen and (max-width: 568px){
-  .lead {
-    padding: 0;
-  }
-}

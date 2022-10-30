@@ -1,7 +1,7 @@
 .header__lang {
   margin: 0;
+  padding: 13px 0 0;
   display: flex;
   align-items: center;
   list-style: none;
-  padding-top: 13px;
 }

@@ -2,7 +2,7 @@
   display: grid;
   max-width: 984px;
   margin: 0 auto;
-  grid-template-columns: minmax(440px, 460px) minmax(min-content,max-content);
+  grid-template-columns: minmax(440px, 460px) minmax(min-content, max-content);
   grid-template-rows: minmax(min-content, max-content) minmax(460px, 1fr);
   column-gap: 40px;
   row-gap: 48px;
@@ -12,15 +12,15 @@
 @media screen and (max-width: 1124px){
   .place {
     grid-template-columns: minmax(340px, 440px) minmax(min-content,max-content);
-    grid-template-rows: minmax(min-content, max-content) minmax(437px, 1fr);
+    grid-template-rows: minmax(min-content, max-content) minmax(440px, 1fr);
     column-gap: 32px;
   }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 984px){
   .place {
     grid-template-columns: minmax(320px, 340px) minmax(min-content,max-content);
-    grid-template-rows: minmax(min-content, max-content) minmax(330px, 1fr);
+    grid-template-rows: minmax(min-content, max-content) minmax(340px, 1fr);
     column-gap: 28px;
     padding: 0 24px;
   }

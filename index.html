@@ -5,37 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="vendor/fonts/InterWeb/inter.css">
-    <title>Russian-Travel</title>
+    <title>Путешествия по России</title>
   </head>
   <body class="page">
       <header class="header page__header">
-        <div class="header__logo">
-          <img class="header__logo" src="./pages/example.svg" alt="Логотип">
-        </div>
+        <img class="header__logo" src="./pages/example.svg" alt="Логотип">
         <ul class="header__lang">
           <li class="header__lang-item"><a class="header__lang-link " href="#">Ru</a></li>
-          <li><a class="header__lang-link header__lang-link_decor" href="#">En</a></li>
+          <li class="header__lang-item"><a class="header__lang-link header__lang-link_disabled" href="#">En</a></li>
         </ul>
       </header>
       <main class="content page__content">
         <section class="lead">
-          <div class="content__section">
-            <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-            <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
-          </div>
+          <h1 class="lead__title">Путешествия по&nbsp;России</h1>
+          <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
           <img src="./images/lead-polka.jpg" alt="Верхняя полка" class="lead__image">
           <p class="lead__caption">ваша полка — верхняя</p>
         </section>
-        <section class="intro content__section">
-            <h3 class="intro__title">Чего мы там не видели?</h3>
-            <blockquote class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</blockquote>
+        <section class="intro">
+            <h2 class="intro__title">Чего мы там не видели?</h2>
+            <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
             <ul class="intro__list">
-              <li><a href="#" class="intro__link">Часовых поясов <span class="intro__regular">11</span></a></li>
-              <li><a href="#" class="intro__link">Объектов природного наследия ЮНЕСКО <span class="intro__regular">12</span></a></li>
-              <li><a href="#" class="intro__link">Объектов культурного наследия ЮНЕСКО <span class="intro__regular">16</span></a></li>
-              <li><a href="#" class="intro__link">Природных заповедников <span class="intro__regular">105</span></a></li>
-              <li><a href="#" class="intro__link">Аэропортов <span class="intro__regular">241</span></a></li>
+              <li><p class="intro__item">Часовых поясов <span class="intro__regular">11</span></p></li>
+              <li><p class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__regular">12</span></p></li>
+              <li><p class="intro__item">Объектов культурного наследия ЮНЕСКО <span class="intro__regular">16</span></p></li>
+              <li><p class="intro__item">Природных заповедников <span class="intro__regular">105</span></p></li>
+              <li><p class="intro__item">Аэропортов <span class="intro__regular">241</span></p></li>
             </ul>
         </section>
         <section class="photo-grid content__section">
@@ -56,7 +51,7 @@
           <div class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
-              <h4 class="place__url-heading">url</h4>
+              <p class="place__url-heading">url</p>
               <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
             </div>
             <img src="images/place-kosa.jpg" alt="Коса" class="place__image">
@@ -68,7 +63,7 @@
           <div class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
-              <h4 class="place__url-heading">url</h4>
+              <p class="place__url-heading">url</p>
               <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" target="_blank">National Geographic</a>
             </div>
             <img src="images/place-kolsky.jpg" alt="Кольский" class="place__image">
@@ -82,7 +77,7 @@
           <div class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
-              <h4 class="place__url-heading">url</h4>
+              <p class="place__url-heading">url</p>
               <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link" target="_blank">Facebook</a>
             </div>
             <img src="images/place-altai.jpg" alt="Алтай" class="place__image">
@@ -95,7 +90,7 @@
           <div class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
-              <h4 class="place__url-heading">url</h4>
+              <p class="place__url-heading">url</p>
               <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
             </div>
             <img src="images/place-winter-baikal.jpg" alt="Зимний Байкал" class="place__image">
@@ -109,7 +104,7 @@
           <div class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
-              <h4 class="place__url-heading">url</h4>
+              <p class="place__url-heading">url</p>
               <a href="http://vodlozero.ru/" class="place__link" target="_blank">http://vodlozero.ru/</a>
             </div>
             <img src="images/place-karelia.jpg" alt="Карелия" class="place__image">
@@ -120,8 +115,8 @@
             </div>
           </div>
         </section>
-        <section class="cover content__section">
-            <a class="cover__item" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+        <section class="cover">
+            <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
               <h2 class="cover__title">До Байкала «на собаках»</h2>
               <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
             </a>

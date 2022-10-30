@@ -1,5 +1,5 @@
 .place__title {
-  box-sizing: border-box;
+  max-width: 330px;
   margin: 0;
   width: 100%;
   font-weight: 900;
@@ -9,7 +9,6 @@
 
 @media screen and (max-width: 984px){
   .place__title {
-    max-width: 330px;
     font-size: 42px;
     line-height: 46px;
   }
@@ -17,6 +16,7 @@
 
 @media screen and (max-width: 450px){
   .place__title {
+    max-width: 288px;
     padding: 0 16px;
     font-size: 32px;
     line-height: 35px;

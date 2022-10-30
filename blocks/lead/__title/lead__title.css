@@ -11,20 +11,16 @@
 
 @media screen and (max-width: 690px){
   .lead__title {
-    font-size: 80px;
-  }
-}
-
-@media screen and (max-width: 615px){
-  .lead__title {
     font-size: 70px;
+    line-height: 80px;
   }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 450px){
   .lead__title {
+    box-sizing: border-box;
+    padding: 0 16px 16px;
     font-size: 40px;
     line-height: 44px;
-    padding-bottom: 16px;
   }
 }
