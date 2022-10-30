@@ -2,7 +2,13 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  max-height: 46px;
+}
+
+@media screen and (max-width: 984px){
+  .place__website {
+    max-height: 46px;
+    padding: 0 16px;
+  }
 }
 
 @media screen and (max-width: 568px){
