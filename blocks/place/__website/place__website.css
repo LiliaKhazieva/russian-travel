@@ -4,16 +4,14 @@
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 984px){
+@media screen and (max-width: 650px){
   .place__website {
-    max-height: 46px;
-    padding: 0 16px;
+    padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 568px){
   .place__website {
     padding: 0 16px;
-    max-height: 43px;
   }
 }

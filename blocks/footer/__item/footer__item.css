@@ -2,12 +2,13 @@
   padding-right: 18px;
 }
 
+.footer__item:last-child {
+  padding: 0;
+}
+
 @media screen and (max-width: 568px){
   .footer__item {
     padding-bottom: 32px;
-  }
-  .footer__item:last-child {
-    padding-bottom: 0;
     padding-right: 0;
   }
 }
